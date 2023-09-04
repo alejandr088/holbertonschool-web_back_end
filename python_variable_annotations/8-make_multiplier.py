@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-""" This module contains the function make_multiplier(multiplier: float) -> Callable[[float], float]  """
+""" This module contains the function make_multiplier """
 
 from typing import Callable
 
