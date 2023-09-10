@@ -22,7 +22,7 @@ def log_stats():
 
     print("Methods:")
     for method in http_methods:
-        print(f"\tmethod{method}: {method_counts[method]}")
+        print(f"\tmethod {method}: {method_counts[method]}")
 
     print(f"{get_status_count} status check")
 
