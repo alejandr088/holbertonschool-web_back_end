@@ -22,9 +22,9 @@ def log_stats():
 
     print("Methods:")
     for method in http_methods:
-        print(f"\t{method}: {method_counts[method]}")
+        print(f"\t{method_counts[method]}")
 
-    print(f"{get_status_count} logs with method=GET and path=/status")
+    print(f"{get_status_count} status check")
 
 
 if __name__ == "__main__":
