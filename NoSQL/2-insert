@@ -1,2 +1,2 @@
 // This command insert a document into a collection
-db.school.insertMany([{ name: "Holberton school"}])
+db.school.insert([{ name: "Holberton school"}])
