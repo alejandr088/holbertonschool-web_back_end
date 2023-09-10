@@ -1,5 +1,5 @@
 // Adds a new attribute to a document in the given collection
 db.school.updateMany(
-    {name: "Holberton school"},
-    {$set: { address: "972 Mission Street"}}
+    { name: "Holberton school"},
+    { $set: { address: "972 Mission Street"}}
 )
